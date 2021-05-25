@@ -87,7 +87,7 @@ def labelGrid(win):
         label.setSize(18)
         label.draw(win)
         counter = counter +1
-#puts the new winner out 
+#Prints the new winner out 
 def winor (win,fname,winner):
     #tells program where to put staments
     outfile = open(fname+".txt","w")
