@@ -43,7 +43,7 @@ def makeBattleGround(win):
     border = Rectangle(Point(8,16), Point(10,2))
     border.setFill("tan")
     border.draw(win)
-#draws the welcome box
+#Displays the welcome box
 def welcome(win):
     welcomerec = Rectangle(Point(2,21.5), Point(24,24.5))
     welcomerec.setFill("light green")
@@ -51,7 +51,7 @@ def welcome(win):
     welcometext =Text(Point(13,23),"Welcome to BattleShip")
     welcometext.setSize(27)
     welcometext.draw(win)
-#draws the sumbit box
+#Displays the sumbit box
 def submitbox(win):
     submitbox = Rectangle(Point(18,18), Point(24,20))
     submitbox.draw(win)
@@ -60,7 +60,7 @@ def submitbox(win):
     submitboxText.setSize(20)
     submitboxText.draw(win)
 
-#labels the graph     
+#Labels the graph     
 def labelGrid(win):
     counter = 0
     for col in range (3,17,2):
