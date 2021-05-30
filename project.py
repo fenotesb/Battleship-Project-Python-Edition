@@ -255,7 +255,7 @@ def stepTwo(win,textboxQ):
         #if the user put's the wrong input makes them try again
         if dirction !=( 72):
             if dirction != (86):
-#error text appears
+#Displays error text appears
                 errors = errorbox(win,"2",entry)
         if dirction == 72 :
             letter = chr(dirction)
@@ -548,7 +548,7 @@ def playerlist(ShipX,letterLoc,HorV):
     Hthree = ["A","B","C","D","E","F","G"]
  
 
-    #alters the list so we can see where the ship at via the list
+    #alters the list so we can see where the ship is located via the list
 
     if ShipX == 3:
         if letterLoc == "B":
@@ -752,7 +752,7 @@ def Cpulist(ShipX,letterLoc,HorV):
     CPUtwos = ["A","B","C","D","E","F","G"]
     Hthree = ["A","B","C","D","E","F","G"]
     CPUthree=  ["A","B","C","D","E","F","G"]
-#alters the list so we can see where the ship at via the list
+#alters the list so we can see where the ship is at via the list
     if ShipX == 11:
         if letterLoc == "B":
             Hones.remove("B")
