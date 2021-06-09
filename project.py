@@ -20,7 +20,7 @@ class players:
         text =Text(Point(13,13),"You Lose")
         text.setSize(20)
         text.draw(win)
- #make window   
+ #Draw window   
 def window():
     win=GraphWin("Project",600,600)
     win.setBackground("light blue")
@@ -103,7 +103,7 @@ def Loseor (win,fname,LOOSER):
 
 
     outfile.close()
-#draws the record box
+#Displays the record box
     
 def recordboxgAME (win,fname ):
     infile = open(fname+".txt","r")
