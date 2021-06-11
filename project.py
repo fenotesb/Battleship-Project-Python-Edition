@@ -32,7 +32,7 @@ def makeBattleGround(win):
     rec = Rectangle(Point(2,2), Point(16,16))
     rec.setFill("light blue")
     rec.draw(win)
-    #draw vertical lines
+    #Draws vertical lines
 
     for i in range(2,16,2):
         aLine = Line(Point(i,2), Point(i,16))
