@@ -1,7 +1,7 @@
 from graphics import *
 from random import randrange
 
-# Make players
+# Create players
 class players:
     def __init__ (self,name,):
         self.name = name
