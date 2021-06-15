@@ -20,7 +20,7 @@ class players:
         text =Text(Point(13,13),"You Lose")
         text.setSize(20)
         text.draw(win)
- #Draw window   
+#Displays window   
 def window():
     win=GraphWin("Project",600,600)
     win.setBackground("light blue")
