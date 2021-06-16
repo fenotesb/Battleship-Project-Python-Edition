@@ -26,7 +26,7 @@ def window():
     win.setBackground("light blue")
     win.setCoords(0,0,25,25)
     return win
-#Displays the board
+#Displays the board on screen
 def makeBattleGround(win):
 
     rec = Rectangle(Point(2,2), Point(16,16))
