@@ -60,7 +60,7 @@ def submitbox(win):
     submitboxText.setSize(20)
     submitboxText.draw(win)
 
-#Labels the graph     
+#Labels the graph on screen     
 def labelGrid(win):
     counter = 0
     for col in range (3,17,2):
