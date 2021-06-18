@@ -163,7 +163,7 @@ def validateinput(userinput):
     elif not ('1' <= userinput[1] <= '3'):
         result = False
     return result
-#draws the error box
+#displays the error box
 def errorbox (win,n,error):
     errorbox = Rectangle(Point(17,9), Point(24,16))
     errorbox.setFill("light green")
