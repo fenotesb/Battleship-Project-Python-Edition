@@ -103,7 +103,7 @@ def Loseor (win,fname,LOOSER):
 
 
     outfile.close()
-#Displays the record box
+#Displays the record box for users
     
 def recordboxgAME (win,fname ):
     infile = open(fname+".txt","r")
