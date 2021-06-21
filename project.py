@@ -146,7 +146,7 @@ def recordbox (win,fname ):
         Reclabel.draw(win)
         counter = counter+1
     infile.close()
-#make the text box to ask questions
+#Displays the text box to ask questions
 def maketextbox(win):
     textboxQ = Rectangle(Point(2,18), Point(16,20))
     textboxQ.setFill("white")
