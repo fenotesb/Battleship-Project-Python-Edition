@@ -1002,7 +1002,7 @@ def main():
     #returns the x y and string og location 
     ShipX,ShipY,location = stepthree(win,textq)
     
-    #draws ship
+    #Display ships
     ship = DrawMyShip(win,ShipX,ShipY,HorV)
     
     CpuShipX,CpuShipY,CpuHorV = DrawCpuShip(win)
